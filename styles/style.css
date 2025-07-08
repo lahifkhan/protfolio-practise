@@ -194,3 +194,57 @@ nav ul{
     gap: 24px;
     justify-content: center;
 }
+
+
+
+/* summary section style */
+
+.summary h4{
+    text-align: center;
+    margin-bottom:  113px;
+}
+
+
+
+.education-experience{
+    display: flex;
+    gap: 24px;
+
+}
+.education-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.experience,.education{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content{
+    padding-right: 47px;
+}
+
+.subsection-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.subsection-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-subtitle{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
