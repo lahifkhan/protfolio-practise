@@ -142,6 +142,9 @@ nav ul{
 
 /* main style */
 /* about me start */
+main{
+    margin-bottom: 113px;
+}
 
 .about-me{
     text-align: center;
@@ -247,4 +250,53 @@ nav ul{
     font-size: 30px;
     color: #474747;
     margin-bottom: 30px;
+}
+
+.cv{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+/* footer start */
+
+footer{
+    background-color: #FFF8F3;
+    padding: 130px;
+}
+
+.footer-container{
+    display: flex;
+    gap: 117px;
+}
+.concect-img-container{
+    display: flex;
+    gap: 24px;
+}
+
+.message form input{
+    display: block;
+    margin-top: 24px;
+    margin-bottom: 24px;
+   background-color: white;
+   border-radius: 5px;
+   padding-left: 24px;
+   font-size: 16px;
+   width: 461px;
+    height: 64px;
+    border: none;
+
+}
+.message form textarea{
+  display: block;
+   padding-left: 24px;
+   font-size: 20px;
+    border-radius: 5px;
+     margin-bottom: 24px;
+     width: 461px;
+     border: none;
 }
